@@ -1,6 +1,9 @@
-🏛️ ArchAtlas
+# 🏛️ ArchAtlas
 
-![ArchAtlas Preview](./preview.png)
+<p align="center">
+  <img src="./preview.png" alt="ArchAtlas Preview" width="100%" />
+</p>
+
 
 **ArchAtlas — An interactive architectural prompt generator that explores vernacular styles across multiple countries, enabling AI-powered visualization of regional design identities.**
 
