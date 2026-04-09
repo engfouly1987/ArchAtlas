@@ -1,5 +1,9 @@
 🏛️ ArchAtlas
 
+![ArchAtlas Preview](./preview.png)
+
+**ArchAtlas — An interactive architectural prompt generator that explores vernacular styles across multiple countries, enabling AI-powered visualization of regional design identities.**
+
 ArchAtlas is an interactive architectural prompt generator that explores vernacular styles across multiple countries, enabling AI-powered visualization of regional design identities.
 
 🔗 Live Demo:
