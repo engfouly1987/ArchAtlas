@@ -1,106 +1,109 @@
-# 🏛️ ArchAtlas
-
 <p align="center">
-  <img src="./preview.png" alt="ArchAtlas Preview" width="100%" />
+  <img src="docs/social-preview.png" alt="ArchAtlas — AF LAB" width="100%">
 </p>
 
+<h1 align="center">ArchAtlas</h1>
 
-**ArchAtlas — An interactive architectural prompt generator that explores vernacular styles across multiple countries, enabling AI-powered visualization of regional design identities.**
+<p align="center">
+  <b>مولّد برومبتات للعمارة المحلية في مصر والسعودية وسوريا والعراق</b><br>
+  An interactive prompt generator for vernacular architecture across four countries.
+</p>
 
-ArchAtlas is an interactive architectural prompt generator that explores vernacular styles across multiple countries, enabling AI-powered visualization of regional design identities.
+<p align="center">
+  <a href="https://af-lab.archprompt.workers.dev"><img alt="AF LAB" src="https://img.shields.io/badge/AF%20LAB-AF--P03-0e1a2b?labelColor=a8834e&style=flat-square"></a>
+  <a href="https://engfouly1987.github.io/ArchAtlas/"><img alt="Live demo" src="https://img.shields.io/badge/Live%20Demo-open-0e1a2b?labelColor=16263d&style=flat-square"></a>
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-0e1a2b?labelColor=16263d&style=flat-square">
+  <img alt="Stack" src="https://img.shields.io/badge/HTML%20%C2%B7%20CSS%20%C2%B7%20JS-0e1a2b?labelColor=16263d&style=flat-square">
+</p>
 
-🔗 Live Demo:
-https://engfouly1987.github.io/ArchAtlas/
+<p align="center">
+  <a href="https://engfouly1987.github.io/ArchAtlas/"><b>فتح الأداة · Open the tool ↗</b></a> &nbsp;·&nbsp;
+  <a href="https://af-lab.archprompt.workers.dev">AF LAB</a> &nbsp;·&nbsp;
+  <a href="https://wa.me/201284537045">WhatsApp</a>
+</p>
 
-✨ Overview
+---
 
-ArchAtlas is a web-based tool designed for architects, designers, and AI creators to generate high-quality prompts inspired by real architectural styles.
+## نظرة سريعة · Overview
 
-It allows users to:
+<div dir="rtl">
 
-Select a country (Egypt, Saudi Arabia, Syria, Iraq)
-Choose a specific architectural style
-Customize variables (materials, proportions, climate, etc.)
-Generate ready-to-use AI prompts instantly
-🌍 Supported Regions & Styles
+**ArchAtlas** أداة ويب للمعماريين والمصممين ومستخدمي الذكاء الاصطناعي. اختار الدولة والطراز المعماري، عدّل المتغيرات، وخد برومبت جاهز لأدوات توليد الصور. كل طراز مبني على هوية إقليمية حقيقية: الثقافة، والمناخ، والخامات، والمنطق الفراغي.
 
-The platform currently includes:
+</div>
 
-🇪🇬 Egypt (Pharaonic, Mamluk, Coptic, Nubian, etc.)
-🇸🇦 Saudi Arabia (Najdi, Hejazi, Asiri, Tihamah, etc.)
-🇸🇾 Syria (Damascene, Aleppine, Umayyad, etc.)
-🇮🇶 Iraq (Abbasid, Baghdadi, Mesopotamian, etc.)
+An architect-friendly tool: pick a country and a vernacular style, tune the variables, and copy a ready-to-use prompt for image generators. Each style reflects regional identity, climate response, material authenticity and spatial logic.
 
-Each style is carefully structured to reflect:
+<p align="center">
+  <img src="preview.png" alt="ArchAtlas preview" width="640">
+</p>
 
-Cultural identity
-Climate response
-Material authenticity
-Spatial logic
-🧠 Key Features
-🎯 AI-Ready Prompts — optimized for image generation tools
-🏗️ Architectural Accuracy — grounded in real styles
-🌍 Multi-Country Support
-⚙️ Custom Variables System
-📋 One-Click Copy
-🎨 Clean UI/UX Interface
-🖼️ Example Outputs
+## الدول والطُرز · Regions & styles
 
-The tool generates prompts that produce results like:
+| الدولة · Country | أمثلة على الطُرز · Example styles |
+|---|---|
+| 🇪🇬 مصر · Egypt | فرعوني، مملوكي، قبطي، نوبي · Pharaonic, Mamluk, Coptic, Nubian |
+| 🇸🇦 السعودية · Saudi Arabia | نجدي، حجازي، عسيري، تهامي · Najdi, Hejazi, Asiri, Tihamah |
+| 🇸🇾 سوريا · Syria | دمشقي، حلبي، أموي · Damascene, Aleppine, Umayyad |
+| 🇮🇶 العراق · Iraq | عباسي، بغدادي، بلاد الرافدين · Abbasid, Baghdadi, Mesopotamian |
 
-Coastal Tihamah markets
-Asiri patterned houses
-Stone mountain architecture
-Hejazi courtyard buildings
+## المزايا · Features
 
-(See demo for full experience)
+- 🎯 **برومبتات جاهزة للذكاء الاصطناعي** · AI-ready prompts, optimized for image-generation tools
+- 🏗️ **دقة معمارية** · grounded in real architectural styles
+- ⚙️ **نظام متغيرات** (خامات، نِسَب، مناخ…) · custom variables: materials, proportions, climate
+- 📋 **نسخ بنقرة واحدة** · one-click copy
+- 🌍 **أربع دول** وأكتر بالتدريج · four countries, more to come
 
-🛠️ Tech Stack
-HTML5
-CSS3
-Vanilla JavaScript
-GitHub Pages (Deployment)
-🚀 Getting Started
-Run locally:
+## الاستخدامات · Use cases
+
+- توليد صور معمارية (Midjourney, DALL·E, Stable Diffusion) · AI image generation
+- استكشاف مفاهيم التصميم · architectural concept exploration
+- دراسات الهوية الثقافية في العمارة · cultural design studies
+- هندسة البرومبت للعمارة · prompt engineering for architecture
+
+## تشغيل محلي · Run locally
+
+```bash
 git clone https://github.com/engfouly1987/ArchAtlas.git
 cd ArchAtlas
+# افتح index.html في المتصفح · open index.html in your browser
+```
 
-Then open:
+مفيش تثبيت ولا خادم. ملف واحد يشتغل مباشرة. · No install, no server: it runs straight from the file.
 
-index.html
-📦 Deployment
+## المساهمة · Contributing
 
-This project is deployed using GitHub Pages:
+<div dir="rtl">
 
-https://engfouly1987.github.io/ArchAtlas/
-🎯 Use Cases
-AI Image Generation (Midjourney, DALL·E, Stable Diffusion)
-Architectural concept exploration
-Cultural design studies
-Prompt engineering for architecture
-🤝 Contributing
+أي اقتراح أو تحسين مرحّب بيه: افتح Issue أو اعمل Fork و Pull Request.
 
-Contributions are welcome!
+</div>
 
-If you'd like to:
+## الترخيص · License
 
-Add new countries or styles
-Improve prompts
-Enhance UI
+MIT
 
-Feel free to fork the repo and submit a pull request.
+## التواصل · Contact
 
-📄 License
+<div dir="rtl">
 
-This project is open-source and available under the MIT License.
+للاستفسار أو طلب أداة أو تعديل، أسرع طريقة **واتساب**. وباقي القنوات تحت.
 
-👤 Author
+</div>
 
-Ahmed El-Fouly
-📧 ahmedfouly08@gmail.com
+| | |
+|---|---|
+| 💬 WhatsApp | [+20 128 453 7045](https://wa.me/201284537045) |
+| ✉️ Email | [ahmedfouly08@gmail.com](mailto:ahmedfouly08@gmail.com) |
+| 🌐 AF LAB | [af-lab.archprompt.workers.dev](https://af-lab.archprompt.workers.dev) |
+| Facebook | [ahmed.fooly](https://www.facebook.com/ahmed.fooly) |
+| Instagram | [@ah.elfouly](https://www.instagram.com/ah.elfouly/) |
+| GitHub | [engfouly1987](https://github.com/engfouly1987) |
 
-📱 WhatsApp: +20 128 453 7045
+---
 
-⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub!
+<p align="center">
+  <sub>جزء من <a href="https://af-lab.archprompt.workers.dev"><b>AF LAB</b></a> — أدوات ومؤلفات وتطبيقات ويب للمهندسين والمعماريين.<br>
+  Part of <a href="https://af-lab.archprompt.workers.dev"><b>AF LAB</b></a> — tools, books and web apps for engineers and architects.</sub>
+</p>
