@@ -1,106 +1,32 @@
-# 🏛️ ArchAtlas
+# 🏛️ ArchAtlas — أطلس البرومبت المعماري
 
 <p align="center">
   <img src="./preview.png" alt="ArchAtlas Preview" width="100%" />
 </p>
 
+أداة من [AF4AI](https://af4ai.com/) تولّد برومبت صور معمارية لـ **40 طرازاً محلياً** في مصر والسعودية وسوريا والعراق، مع عناصر كل طراز وما يجب استبعاده حتى لا تخلط النماذج بين الطرز المتقاربة.
 
-**ArchAtlas — An interactive architectural prompt generator that explores vernacular styles across multiple countries, enabling AI-powered visualization of regional design identities.**
+🔗 التجربة المباشرة: https://engfouly1987.github.io/ArchAtlas/
 
-ArchAtlas is an interactive architectural prompt generator that explores vernacular styles across multiple countries, enabling AI-powered visualization of regional design identities.
+## الطرز
+- 🇪🇬 **مصر:** الإحياء الفرعوني، الإسكندراني، القبطي، الطولوني، الفاطمي، المملوكي، البيت العثماني، الإحياء المملوكي، الخديوي، النوبي (حسن فتحي)
+- 🇸🇦 **السعودية:** النجدي (تقليدي، انتقالي، معاصر، شرقي)، الحجازي (جدة، المدينة)، العسيري (حجري، القط)، التهامي، السلماني
+- 🇸🇾 **سوريا:** الدمشقي (بفناء، بالأبلق)، الأموي، الأيوبي المملوكي، الحلبي (تجاري، أبلق)، العثماني المتأخر، الحوراني، قرى الشمال الكلسية، البالميري
+- 🇮🇶 **العراق:** العباسي، السامرائي، البيت البغدادي، الشناشيل، العثماني المتأخر، السلجوقي الإيواني، الإحياء الرافديني، الطيني الصحراوي، الجادرجي، المضيف الأهواري
 
-🔗 Live Demo:
-https://engfouly1987.github.io/ArchAtlas/
+## ما الجديد في الإصدار 2
+- واجهة بهوية AF4AI (الوضع الفاتح والداكن) تعمل على الكمبيوتر والجوال، والبرومبت يتحدث فوراً.
+- **مخرجان حسب النموذج:**
+  - **Midjourney V8:** برومبت إنجليزي ينتهي بـ `--ar` و`--raw` و`--no`.
+  - **وصف طبيعي** لـ Nano Banana Pro وGPT Image: فقرات وصفية بدل الكلمات المفتاحية.
+- **إصلاح منطقي مهم:** قائمة `--no` في الإصدار الأول كانت تنتهي بجملة مثل `this is strictly Neo-Pharaonic`، فكان Midjourney يستبعد الطراز المطلوب نفسه. الآن القائمة تحتوي العناصر المستبعدة فقط.
+- البرومبت أصبح بالإنجليزية بالكامل (Midjourney لا يفهم العربية بدقة)، مع ترجمة كل القيم المقترحة. إذا كتبت قيمة عربية جديدة تظهر لك ملاحظة بدل أن تدخل البرومبت بصمت.
+- إزالة الحشو القديم مثل `8K ultra-detailed`، وإضافة نسبة الصورة وزاوية اللقطة وخيار التوقيع.
 
-✨ Overview
+## الاستخدام
+افتح `index.html` في أي متصفح؛ لا يحتاج خادماً.
 
-ArchAtlas is a web-based tool designed for architects, designers, and AI creators to generate high-quality prompts inspired by real architectural styles.
+## المؤلف
+م. أحمد الفولي — [af4ai.com](https://af4ai.com/) · 📧 ahmedfouly08@gmail.com · 📱 +20 128 453 7045
 
-It allows users to:
-
-Select a country (Egypt, Saudi Arabia, Syria, Iraq)
-Choose a specific architectural style
-Customize variables (materials, proportions, climate, etc.)
-Generate ready-to-use AI prompts instantly
-🌍 Supported Regions & Styles
-
-The platform currently includes:
-
-🇪🇬 Egypt (Pharaonic, Mamluk, Coptic, Nubian, etc.)
-🇸🇦 Saudi Arabia (Najdi, Hejazi, Asiri, Tihamah, etc.)
-🇸🇾 Syria (Damascene, Aleppine, Umayyad, etc.)
-🇮🇶 Iraq (Abbasid, Baghdadi, Mesopotamian, etc.)
-
-Each style is carefully structured to reflect:
-
-Cultural identity
-Climate response
-Material authenticity
-Spatial logic
-🧠 Key Features
-🎯 AI-Ready Prompts — optimized for image generation tools
-🏗️ Architectural Accuracy — grounded in real styles
-🌍 Multi-Country Support
-⚙️ Custom Variables System
-📋 One-Click Copy
-🎨 Clean UI/UX Interface
-🖼️ Example Outputs
-
-The tool generates prompts that produce results like:
-
-Coastal Tihamah markets
-Asiri patterned houses
-Stone mountain architecture
-Hejazi courtyard buildings
-
-(See demo for full experience)
-
-🛠️ Tech Stack
-HTML5
-CSS3
-Vanilla JavaScript
-GitHub Pages (Deployment)
-🚀 Getting Started
-Run locally:
-git clone https://github.com/engfouly1987/ArchAtlas.git
-cd ArchAtlas
-
-Then open:
-
-index.html
-📦 Deployment
-
-This project is deployed using GitHub Pages:
-
-https://engfouly1987.github.io/ArchAtlas/
-🎯 Use Cases
-AI Image Generation (Midjourney, DALL·E, Stable Diffusion)
-Architectural concept exploration
-Cultural design studies
-Prompt engineering for architecture
-🤝 Contributing
-
-Contributions are welcome!
-
-If you'd like to:
-
-Add new countries or styles
-Improve prompts
-Enhance UI
-
-Feel free to fork the repo and submit a pull request.
-
-📄 License
-
-This project is open-source and available under the MIT License.
-
-👤 Author
-
-Ahmed El-Fouly
-📧 ahmedfouly08@gmail.com
-
-📱 WhatsApp: +20 128 453 7045
-
-⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub!
+MIT License
